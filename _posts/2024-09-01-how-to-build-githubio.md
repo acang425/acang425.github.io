@@ -28,11 +28,11 @@ description: 介绍如何使用Jekyll在GitHub Pages上搭建个人网站
 
 在安装向导最后一步勾选选项：
 
-![image-20240901195135873](assets\images\2024-09-01-how-to-build-githubio.assets\image-20240901195031009.png)
+![image-20240901195135873](..\images\2024-09-01-how-to-build-githubio.assets\image-20240901195031009.png)
 
 在弹出的命令行窗口中选择 “MSYS2 and MINGW development tool chain”：
 
-![image-20240901195135873](assets\images\2024-09-01-how-to-build-githubio.assets/image-20240901195135873.png)
+![image-20240901195135873](..\images\2024-09-01-how-to-build-githubio.assets\image-20240901195135873.png)
 
 检查是否安装成功：
 
@@ -41,7 +41,7 @@ ruby -v
 gem -v 
 ```
 
-![image-20240901195229777](assets\images\2024-09-01-how-to-build-githubio.assets/image-20240901195229777.png)
+![image-20240901195229777](..\images\2024-09-01-how-to-build-githubio.assets\image-20240901195229777.png)
 
 ### 1.3 安装Jekyll
 
@@ -73,7 +73,7 @@ jekyll -v
 
 打开[chirpy-starter](https://github.com/cotes2020/chirpy-starter)仓库，点击按钮 “Use this template” → “Create a new repository”。
 
-<img src="assets\images\2024-09-01-how-to-build-githubio.assets/image-20240901195532758.png" alt="image-20240901195532758" style="zoom: 33%;" />
+<img src="..\images\2024-09-01-how-to-build-githubio.assets\image-20240901195532758.png" alt="image-20240901195532758" style="zoom: 33%;" />
 
 将新仓库命名为`<username>.github.io`，其中`<username>`是你的GitHub用户名，如果包含大写字母需要转换为小写。
 
@@ -142,13 +142,13 @@ description: 一篇人脸三维模板反演论文的阅读笔记
   url: https://acang425.github.io
 ```
 
-若有本地图片，记得一起放进项目中，建议放在`assets\images`中，并全局修改文件路径。
+若有本地图片，记得一起放进项目中，建议放在`images`中，并全局修改文件路径。
 
 ### 3.6 部署
 
 在GitHub上打开仓库设置，点击左侧导航栏 “Pages”，在 “Build and deployment” - “Source” 下拉列表选择 “GitHub Actions”。
 
-![image-20240901201036091](assets\images\2024-09-01-how-to-build-githubio.assets/image-20240901201036091.png)
+![image-20240901201036091](..\images\2024-09-01-how-to-build-githubio.assets\image-20240901201036091.png)
 
 提交本地修改并推送至远程仓库，即可访问个人网站。
 
