@@ -61,9 +61,6 @@ jekyll -v
 
 **主题**(theme)提供了网站页面的布局和样式，详见官方文档[Themes](https://jekyllrb.com/docs/themes/)。
 
-在以下页面选择你喜欢的主题：
-
-[http://jekyllthemes.org/ ](http://jekyllthemes.org/ )
 
 ## 3 搭建网站
 
@@ -143,6 +140,9 @@ description: 一篇人脸三维模板反演论文的阅读笔记
 ```
 
 若有本地图片，记得一起放进项目中，建议放在`images`中，并全局修改文件路径。
+
+> 路径统一使用`/`，不然github部署时会报错。
+> {: .prompt-danger }
 
 ### 3.6 部署
 
