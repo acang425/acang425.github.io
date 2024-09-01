@@ -139,10 +139,10 @@ description: 一篇人脸三维模板反演论文的阅读笔记
   url: https://acang425.github.io
 ```
 
-若有本地图片，记得一起放进项目中，建议放在`images`中，并全局修改文件路径。
+若有本地图片，记得一起放进项目中，建议放在`/assets/img`中，并全局修改文件路径。
 
 > 路径统一使用`/`，不然github部署时会报错。
-> {: .prompt-danger }
+ {: .prompt-danger }
 
 ### 3.6 部署
 
