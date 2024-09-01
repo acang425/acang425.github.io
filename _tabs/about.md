@@ -19,11 +19,14 @@ order: 4
 
 **Harbin Institute of Technology, Shenzhen** 2025.7-
 
-- Wait for Enrollment
+- Waiting for Enrollment
+- Master Degree
+- School of Computer Science and Engineering
+
 
 **South China University of Technology** 2021.9-2025.7
 
-- Master Degree
+- Bachelor Degree
 - School of Software Engineering
 
 ## Research Directions
